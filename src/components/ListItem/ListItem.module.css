@@ -1,0 +1,1 @@
+.item {    padding: 10px 20px;    background-color: rgba(95, 158, 160, 0.51);    border-radius: 10px;    cursor: pointer;    transition: background-color .4s ease-out;}.item:hover {    background-color: rgba(95, 158, 160, 0.3);}.item:not(:last-child) {    margin-bottom: 15px;}

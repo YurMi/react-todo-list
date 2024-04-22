@@ -1,0 +1,1 @@
+import styles from './ListItem.module.css';export default function ListItem(props) {	const {list_item, upItemId} = props;	return (		<li			className={styles.item}			id={list_item.id}			onClick={(e) => upItemId(e.target.id)}		>			{list_item.label}		</li>	)}
